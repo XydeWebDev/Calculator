@@ -35,6 +35,10 @@ body {
     padding: 10px;
 }
 
+.main__calc, .calc__history {
+    overflow: hidden;
+}
+
 .calc__history {
     font-size: 18px;
     color: #5d5d5d;
@@ -49,7 +53,7 @@ body {
     justify-content: center;
 }
 
-.calc__col {
+.calc__button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,6 +66,6 @@ body {
     cursor: pointer;
 }
 
-.calc__col:hover {
+.calc__button:hover {
     background: #424242;
 }
