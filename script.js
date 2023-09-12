@@ -38,7 +38,7 @@ const changingHistory = operationButton => {
 };
 
 const changeSign = () => {
-    mainString.textContent = mainString.textContent > 0 ? '-' + mainString.textContent : mainString.textContent.slice(1);
+    mainString.textContent = mainString.textContent >= 0 ? '-' + mainString.textContent : mainString.textContent.slice(1);
 };
 
 const format = (expression, answer) => {
